@@ -1,0 +1,150 @@
+/* @font-face {
+    font-family: "My Custom Font";
+    src: url(./assets/Milk\ Peach.ttf) format("truetype");
+} */
+
+body {
+    background-color: #2e2d2d;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    margin: 0;
+    padding: 0;
+    font-family: 'STLiti';
+    
+}
+.container1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width: 100%;
+    overflow: hidden;
+}
+.navbar{
+    background:rgb(233, 229, 200);
+    height: 60px;
+    text-align: right;
+    padding-top: 40px;
+    padding-right: 20px;
+    border-bottom: 1px solid ;
+}
+.navbar a{
+   color: black;
+   font-size: 20px;
+   text-decoration: none;
+   padding: 10px 40px;
+   transition-duration: 300ms;
+}
+.navbar a:hover{
+    color: rgb(7, 7, 7);
+    background: #ffca0d;
+    border-radius: 50px;
+
+ }
+.home-page{
+    background: rgb(233, 229, 200);
+    height: 510px;
+    /* display: flex; */
+
+}
+.about{
+    position: relative;
+    top: 180px;
+    left: 300px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.about h1{
+    font-size: 45px;
+    margin: 10px;
+}
+
+.about p {
+    font-family:'STLiti'  ;
+    font-size: 25px;
+}
+.about button{
+    background: #ffca0d;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-family: 'STLiti' ;
+    font-size: 15px;
+    border: 0;
+    
+}
+.image{
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    right: 9rem;
+    bottom: 5rem;
+    background-color: rgba(0, 0, 0, 0);
+}
+.back{
+    position: absolute;
+    height: 450px;
+    width: 300px;
+    right: 2rem;
+    top: 3.5rem;
+    background: black;
+}
+
+.back1 {
+    position: absolute;
+    height: 340px;
+    width: 300px;
+    right: 2rem;
+    top: 3.5rem;
+    background:rgb(1, 78, 52);
+}
+
+.image .circle {
+    position: absolute;
+    background-color: rgb(233, 229, 200);
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100%;
+    top: 5.5rem;
+    left: 7.5rem;
+}
+.image .pic {
+    position: absolute;
+    height: 450px;
+    bottom: 105px;
+    right: 0.1rem;
+    
+   
+}
+.birthday{
+    position: absolute;
+    height: 35px;
+    width: 150px;
+    background: #ffca0d;
+    top: 5rem ;
+    border-radius: 20px;
+}
+.birthday p{
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+}
+.country{
+    position: absolute;
+    height: 35px;
+    width: 150px;
+    background: #ffca0d;
+    top: 22rem ;
+    left: 20rem;
+    border-radius: 20px; 
+}
+.country p{
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+}
+.style1{
+    background: rgb(1, 78, 52);
+    height: 180px;
+   
+
+}
+
